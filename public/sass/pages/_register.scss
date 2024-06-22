@@ -1,0 +1,37 @@
+.register-wrapper {
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &>.register-form {
+    width:400px;
+    padding:30px 15px;
+    background-color: #ffffff;
+
+    .register-btn {
+      color:#ffffff;
+      background-color: #10f52e;
+
+      &:hover {
+        outline:2px solid #10f52e;
+        color:#10f52e;
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  .form-footer {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      font:14px Tahoma;
+      color:#0a9bf5;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

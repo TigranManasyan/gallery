@@ -1,0 +1,25 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width:1200px;
+  max-width: 100%;
+  margin:0 auto;
+}
+
+body {
+  background-color: #cbcaca;
+}
+
+@import "includes/variables";
+@import "includes/mixins";
+@import "includes/app";
+@import "pages/_login";
+@import "pages/_register";
+@import "pages/nav_bar";
+@import "pages/main";
+@import "pages/pop_up";
+@import "pages/photo_list";
+@import "pages/responsive";

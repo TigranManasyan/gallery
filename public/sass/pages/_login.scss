@@ -1,0 +1,37 @@
+.login-wrapper {
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &>.login-form {
+    width:400px;
+    padding:30px 15px;
+    background-color: #ffffff;
+
+    .login-btn {
+      color:#ffffff;
+      background-color: #0a9bf5;
+
+      &:hover {
+        outline:2px solid #0a9bf5;
+        color:#0a9bf5;
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  .form-footer {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      font:14px Tahoma;
+      color:#0a9bf5;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
